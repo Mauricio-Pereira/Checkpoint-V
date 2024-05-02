@@ -22,7 +22,7 @@ header > nav > div {
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    color: #2B3C75;
+    color: #000000;
     font-weight: bold;
     font-size: 0.8rem; 
 }

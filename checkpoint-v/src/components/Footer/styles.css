@@ -2,11 +2,12 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #14285C;
-    color: #fff;
+    background-color: #ff4f00;
+    color: #000000;
     padding: 1.5rem;
     font-weight: 500;
     font-size: 0.8rem;
+    margin-bottom: 0rem;
 }
 
 .imagem-footer{
