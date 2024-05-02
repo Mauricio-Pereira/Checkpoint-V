@@ -1,4 +1,5 @@
 header {
+    background-color: #ffffff;
     padding: 2%;
     justify-content: space-between;
 }
@@ -35,11 +36,7 @@ header nav ul {
     flex: 60%;
 }
 
-header nav div,
-header nav > a,
-header nav img {
-   flex: 15%;
-}
+
 
 header nav button{
     width: 5rem;
@@ -50,24 +47,23 @@ header nav ul li a {
     margin: 0 5px;
 }
 
-header a:hover {
+header ul li a:hover {
     color: #ff4f00;
     background-color: rgba(0, 0, 0, 0.062);
     border-radius: 10px;
 }
 
-header nav div.login a {
-    color: #2B3C75;
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-header > nav div.header-contact {
-    flex-direction: column;
-    text-align: center;
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 2rem;
+    transition: transform 0.4s;
 }
 
 
-header > nav div.login img {
-    margin-right: 5px;
-}
+
+
+
+
