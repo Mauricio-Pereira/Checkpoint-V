@@ -1,48 +1,35 @@
 .produto {
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgb(255, 255, 255);
-    max-width: 12.8rem;
-    max-height: 18rem;
+    width: 18rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     position: relative;
     margin: 3px;
     border: 2px solid #ccc;
-    
-    
+    border-radius: 1rem;
   }
   
   .produto-image {
-    max-height: 200px;
+    height: 19rem;
     transform-origin: center;
     transform: scale(var(--img-scale));
     transition: transform 0.4s ease-in-out;
     aspect-ratio: 1;
     object-fit: contain;
-    margin-bottom: 0.5rem;
-  }
-  
-  
-  .produto-title {
-    width: 100%;
-    min-height: 7rem;
-    max-height: 7rem;
-    transform-origin: center;
-    color: rgb(0, 0, 0);
-    font-size: 1rem;
-    text-align: center;
-    margin-bottom: 10px;
-    padding: 10%;
-    
-  }
-  
-  .produto-description {
-    margin-bottom: 10px;
+    margin: 5px;
   }
   
   .produto-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
     width: 100%;
+    height: 3rem;
     position: relative;
-    background-color: rgb(187, 187, 187);
+    background-color: rgb(255, 164, 84);
     color:rgb(0, 0, 0);
     text-align: center;
   }
@@ -54,4 +41,9 @@
   }
 
   .produto-content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
   }

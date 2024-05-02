@@ -1,15 +1,16 @@
 footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     background-color: #ff4f00;
-    color: #000000;
-    padding: 1.5rem;
+    color: #ffffff;
     font-weight: 500;
-    font-size: 0.8rem;
-    margin-bottom: 0rem;
+    font-size: 1rem;
+    margin-top: 5px;
 }
 
 .imagem-footer{
-    width: 3.5rem;
+    width: 10%;
 }

@@ -4,11 +4,13 @@
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-
 }
 .form-contato{
     display: flex;
     flex-direction: column;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
 }
 
 .input{
