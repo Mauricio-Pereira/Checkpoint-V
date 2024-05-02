@@ -6,19 +6,20 @@ const ContainerMain = () => {
         <section>
             <div className="box background" id="background-img">
                 <div className="title-box">
-                    <span>Sempre com você</span>
-                    <h1>Sneakers S.A</h1>
-                    <span>Feito Por: Vitor, Luiz, Mauricio_</span>
+                    <span>More than just sneakers</span>
+                    <h1>Mike Sneakers</h1>
+                    <span>By: Vitor, Luiz, Mauricio</span>
                 </div>
             </div>
             <div className="box">
                 <div className="text-box">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptas dolorum sunt eum sed recusandae quae saepe aliquid harum asperiores. Quas iste voluptate amet, blanditiis accusantium iure laborum reprehenderit mollitia!
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ratione corrupti hic quo sit atque, a in et! Eos et mollitia modi dolorem, perspiciatis magnam maxime soluta officia beatae fuga.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aut, ipsam optio saepe exercitationem sapiente voluptas laudantium illum iusto, sit quidem, neque aliquid! Provident, quasi? Minima aspernatur provident illo enim.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat praesentium repellat laboriosam dolores, nesciunt, quidem molestias libero consequuntur aliquam debitis asperiores magni magnam quo, maiores sunt deserunt veritatis iste repellendus?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sunt nemo voluptate sequi, reprehenderit qui numquam, laboriosam, quisquam libero corporis aliquam ratione maxime et impedit distinctio quam vel eum quibusdam.
+                        Dê um passo à frente no mundo da moda e do desempenho com a Mike Sneakers - sua destinção definitiva para tênis de alta qualidade e estilo incomparável!<br/><br />
+                        Na Mike Sneakers, não se trata apenas de comprar tênis, é sobre expressar sua individualidade e vibrar sua personalidade através de cada passo que você dá. Nossa extensa coleção apresenta uma variedade de marcas de renome e modelos exclusivos, garantindo que você encontre o par perfeito para se adequar ao seu estilo único.<br />
+                        Seja você um atleta em busca de excelência no desempenho, um aficionado por moda que segue as últimas tendências ou alguém que valoriza o conforto sem sacrificar o estilo, a Mike Sneakers tem exatamente o que você precisa. <br /><br />
+                        Nossa equipe especializada está aqui para oferecer orientação personalizada e assistência individualizada, garantindo que você encontre o tênis ideal que se encaixe perfeitamente em seu estilo de vida e preferências pessoais.
+                        Na Mike Sneakers, qualidade e autenticidade são nossas principais prioridades. Trabalhamos exclusivamente com as melhores marcas e garantimos que cada par de tênis em nossa coleção seja autêntico e de alta qualidade.
+                        Explore nossa abrangente seleção online ou visite nossa loja física para descobrir as últimas novidades em calçados esportivos e urbanos.<br/><br /> Na Mike Sneakers, estamos aqui para ajudá-lo a dar passos confiantes em grande estilo.
                     </p>
                 </div>
             </div>
