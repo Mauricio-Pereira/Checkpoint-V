@@ -4,9 +4,12 @@ const ContainerMain = () => {
     return (
         <>
         <section className="">
-            <div className="box" id="background-img">
-                <h1>Checkpoint S.A</h1>
-                <span>Sempre com você</span>
+            <div className="box background" id="background-img">
+                <div className="title-box">
+                    <span>Sempre com você</span>
+                    <h1>Sneakers S.A</h1>
+                    <span>Feito Por: Vitor, Luiz, Mauricio_</span>
+                </div>
             </div>
             <div className="box">
                 <p>

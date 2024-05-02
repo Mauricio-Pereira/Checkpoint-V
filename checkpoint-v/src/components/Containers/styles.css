@@ -1,15 +1,40 @@
+/* ===== Importes: Fontes ===== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 .container{
-    flex-direction: column;
 }
 
 .box{
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 
 #background-img{
     background-image: url(/img/photo-1474546652694-a33dd8161d66.png);
     background-position: center;
     background-size: cover;
+}
+
+.background{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background > .title-box{
+    text-align: center;
+    font-family: 'Black Ops One', sans-serif;
+    font-weight: bolder;
+    color: #ff9900;
+}
+
+.background > .title-box > h1{
+    margin: 3px 0;
+    font-size: 20vh;
+}
+
+.background > .title-box > span{
+    font-size: 5vh;
 }
