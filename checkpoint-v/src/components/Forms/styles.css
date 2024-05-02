@@ -1,0 +1,40 @@
+.flex-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+}
+.form-contato{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20rem;
+}
+
+.botao{
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4f00;
+    color: white;
+    cursor: pointer;
+    width: 20rem;
+}
+.botao:hover{
+    background-color: #ff7f00;
+}
+
+.imagem-contato{
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
