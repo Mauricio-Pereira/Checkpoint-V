@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import './styles.css';
 
 const Header = () => {
@@ -6,10 +7,10 @@ const Header = () => {
             <header className="flex">
                 <nav>
                     <ul>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
+                        <li><Link className="links" href="/">Página Inicial</Link></li>
+                        <li><Link className="links" href="/Produto">Produtos</Link></li>
+                        <li><Link className="links" href="/Contato">Contatos</Link></li>
+                        <li><Link className="links" href="/Sobre">Sobre</Link></li>
                     </ul>
                 </nav>
             </header>
