@@ -16,6 +16,12 @@
   }
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
