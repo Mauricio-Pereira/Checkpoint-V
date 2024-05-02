@@ -20,13 +20,22 @@
     align-items: center;
 }
 
-.background > .title-box{
+.background > .title-box > h1{
     text-align: center;
     font-family: 'Black Ops One', sans-serif;
     font-weight: bolder;
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: #a83500;
-    font-size: 3em; color: #ff4f00;
+    -webkit-text-stroke-color: #ff4f00;
+    font-size: 3em; color: #ffffff;
+}
+
+.background > .title-box {
+    text-align: center;
+    font-family: 'Black Ops One', sans-serif;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #ff4f00;
+    font-size: 3em; color: #ffffff;
 }
 
 .background > .title-box > h1{
