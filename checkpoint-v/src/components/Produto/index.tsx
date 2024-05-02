@@ -6,7 +6,8 @@ import "./styles.css";
 
 const Produto: React.FC<ProdutoProps> = ({ title, image, link, preco }) => {
   return (
-    <div className="produto">
+    <div className="produto" >
+      <a href={link}>
       <div className="produto-content">
         <Image className="produto-image" src={image} width={200} height={200}alt={"Nome do Produto " + title}
         />
@@ -21,6 +22,7 @@ const Produto: React.FC<ProdutoProps> = ({ title, image, link, preco }) => {
       </Link>
       <div className="produto-preco">R$ {preco}</div>
       </div>
+      </a>
     </div>
   );
 };

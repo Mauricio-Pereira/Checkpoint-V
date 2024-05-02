@@ -4,6 +4,7 @@ import './styles.css';
 export default function Produtos() {
     return (
       <main className="produtos-container flex-auto">
+        
       <Produto
       title="TÊNIS NEW BALANCE 9060"
       image="/img/new-balance.jpg"
