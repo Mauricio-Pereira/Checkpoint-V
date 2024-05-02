@@ -20,10 +20,28 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background-color: #f7f7f7;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* ===== Scrollbar CSS ===== */
+*::-webkit-scrollbar {
+	width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #cecbc2;
+  border-left: 1px solid #65292c;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #c0bdb5;
+	border-radius: 4px;
+	border: 1px solid #777676;
+  border-left: 1px solid #65292c;
 }

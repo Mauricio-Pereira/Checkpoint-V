@@ -2,14 +2,14 @@
     flex-direction: column;
 }
 
-#background-img{
-    background-image: url(/img/photo-1474546652694-a33dd8161d66.png);
-    background-position: center;
-    background-size: cover;
-}
-
 .box{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+#background-img{
+    background-image: url(/img/photo-1474546652694-a33dd8161d66.png);
+    background-position: center;
+    background-size: cover;
 }
