@@ -51,7 +51,7 @@ header nav ul li a {
 }
 
 header a:hover {
-    color: #2A71B5;
+    color: #ff4f00;
     background-color: rgba(0, 0, 0, 0.062);
     border-radius: 10px;
 }
