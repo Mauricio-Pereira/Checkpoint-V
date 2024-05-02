@@ -1,7 +1,7 @@
 header {
-    padding: 1% 2%;
+    padding: 3%;
     justify-content: space-between;
-    margin-bottom: 45px;
+    margin-bottom: 2px;
 }
 
 header > a:first-child {
