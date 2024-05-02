@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 .produtos-container {
   display: flex;
   flex: 1;
@@ -6,6 +9,15 @@
   margin-top: 20px;
 }
 
-produto{
-  background-color: #ffffff;
+
+
+.title-box{
+  display: flex;
+  text-align: center;
+  font-family: 'Black Ops One', sans-serif;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #a83500;
+  font-size: 3em; color: #ff4f00;
+  padding: 6%
 }
