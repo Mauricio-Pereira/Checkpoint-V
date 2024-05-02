@@ -1,4 +1,4 @@
-import ContainerMain from "@/components/Containers/ConatinerMain";
+import ContainerMain from "@/components/Main";
 
 import Image from "next/image";
 
