@@ -4,7 +4,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
 }
 .form-contato{
     display: flex;
@@ -51,4 +50,30 @@
     width: 20rem;
     min-height: 15rem;
     max-height: 20rem;
+}
+
+@media (max-width: 795px){
+    .flex-form{
+        flex-direction: column;
+    }
+    .form-contato{
+        width: 100%;
+    }
+    .input{
+        width: 100%;
+    }
+    .input-mensagem{
+        width: 100%;
+    }
+    .botao{
+        width: 100%;
+    }
+
+    .imagem-contato{
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    }
+    
 }
