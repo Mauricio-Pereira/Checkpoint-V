@@ -63,6 +63,13 @@ header ul li a:hover {
 }
 
 
+@media only screen and (max-width: 557px) {
+    li{
+        font-size: 0.6rem;
+        margin: -8px;
+        padding: 0;
+    }
+}
 
 
 

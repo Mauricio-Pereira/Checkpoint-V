@@ -9,8 +9,10 @@ footer{
     font-weight: 500;
     font-size: 1rem;
     margin-top: 5px;
+    min-width: 100%;
 }
 
 .imagem-footer{
-    width: 10%;
+    max-height: 5rem;
+    object-fit: scale-down;
 }
