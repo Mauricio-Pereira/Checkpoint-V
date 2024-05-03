@@ -40,11 +40,11 @@
 
 .background > .title-box > h1{
     margin: 3px 0;
-    font-size: 20vh;
+    font-size: 5rem;
 }
 
 .background > .title-box > span{
-    font-size: 5vh;
+    font-size: 3rem;
 }
 
 .text-box{
@@ -58,3 +58,23 @@
     border-radius: 1rem;
     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 753px) {
+    .box, .text-box {
+         flex-direction: column;
+         padding: 1rem;
+     }
+
+    .background >.title-box > h1 {
+         font-size: 1em;
+     }
+ 
+    .background >.title-box > span {
+         font-size: 0.5em;
+     }
+ 
+    .text-box {
+         padding: 1rem;
+         margin: 1rem;
+     }
+ }
