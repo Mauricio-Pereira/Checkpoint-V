@@ -19,6 +19,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 20rem;
+    
 }
 
 .botao{
@@ -39,4 +40,14 @@
     max-height: 30rem;
     object-fit: cover;
     border-radius: 1rem;
+}
+
+.input-mensagem{
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20rem;
+    min-height: 15rem;
+    max-height: 20rem;
 }

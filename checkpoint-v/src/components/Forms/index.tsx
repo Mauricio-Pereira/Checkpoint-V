@@ -14,7 +14,7 @@ const ContatoForms = () => {
                 <input className = "input" type="tel" placeholder='XXXXX-XXXX' />
 
                 <label htmlFor="mensagem">Mensagem</label>
-                <textarea className = "input" placeholder='Mensagem' />
+                <textarea className = "input input-mensagem" placeholder='Mensagem' />
                 
                 
                 
